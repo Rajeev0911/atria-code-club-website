@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;    
+}
+
+.outer-div{
+    position: absolute;
+    background-image: url("Atria_Code_Club.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-color: yellow; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.login-div{
+    position: absolute;
+    /* background-color: red; */
+    top: 5%;
+    right: 0%;
+    height: 100%;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    position: absolute;
+    right: 5%;
+    background-color: rgba(248, 248, 248, 0.739);
+    height: 85%;
+    width: 80%;
+    border: 1px solid rgba(227, 227, 227, 0.384);
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+    display: flex;
+}
+
+.login-heading{
+    position: absolute;
+    /* background-color: white; */
+    top: 0%;
+    height: 14.285%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.login-heading span{
+    color: rgb(2, 144, 2);
+    font-size: 120%;
+}
+
+.first-name{
+    position: absolute;
+    /* background-color: rgb(50, 214, 50); */
+    top: 14.285%;
+    height: 14.285%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-name{
+    position: absolute;
+    /* background-color: white; */
+    top: 28.57%;
+    height: 14.285%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.e-mail-address{
+    position: absolute;
+    /* background-color: rgb(50, 214, 50); */
+    top: 42.855%;
+    height: 14.285%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password{
+    position: absolute;
+    /* background-color: white; */
+    top: 57.14%;
+    height: 14.285%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.institution{
+    position: absolute;
+    /* background-color: rgb(50, 214, 50); */
+    top: 71.425%;
+    height: 14.285%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    position: absolute;
+    /* background-color: white; */
+    top: 85.71%;
+    height: 14.285%;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    color: black;
+    position: absolute;
+    left: 5%;
+    font-size: 130%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.box{
+    padding: 2%;
+    position: absolute;
+    background-color: white;
+    height: 30%;
+    width: 50%;
+    left: 35%;
+    border: 2px solid rgb(231, 230, 230);
+    border-radius: 10px;
+    font-size: 110%;
+    font-family: 'Inconsolata', monospace;
+}
+
+.login-btn{
+    position: absolute;
+    background-color: white;
+    color: black;
+    height: 40%;
+    width: 50%;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    cursor: pointer;
+}
