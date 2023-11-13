@@ -1,159 +1,184 @@
 *{
     margin: 0%;
-    padding: 0%;    
+    padding: 0%;
 }
 
-.outer-div{
+.main-body{
     position: absolute;
-    background-image: url("Atria_Code_Club.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* background-color: yellow; */
+    background-color: rgb(245, 245, 245);
     height: 100%;
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.login-div{
+.inner-body{
     position: absolute;
     /* background-color: red; */
-    top: 5%;
-    right: 0%;
-    height: 100%;
-    width: 48%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.login-form{
-    position: absolute;
-    right: 5%;
-    background-color: rgba(248, 248, 248, 0.739);
-    height: 85%;
+    height: 80%;
     width: 80%;
-    border: 1px solid rgba(227, 227, 227, 0.384);
-    border-radius: 10px;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
-    display: flex;
 }
 
-.login-heading{
+.inner-body .image-page{
     position: absolute;
-    /* background-color: white; */
-    top: 0%;
-    height: 14.285%;
+    background-color: white;
+    height: 100%;
+    width: 50%;
+}
+
+.inner-body .image-page .aec-name{
+    position: absolute;
+    background-color: white;
+    height: 10%;
     width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto Mono', monospace;
+    font-size: 140%;
+    font-family: 'Fjalla One', sans-serif;
 }
 
-.login-heading span{
-    color: rgb(2, 144, 2);
-    font-size: 120%;
-}
-
-.first-name{
+.inner-body .image-page .image{
     position: absolute;
-    /* background-color: rgb(50, 214, 50); */
-    top: 14.285%;
-    height: 14.285%;
+    background-color: white;
+    height: 90%;
     width: 100%;
+    top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.last-name{
+.inner-body .image-page .image img{
+    height: 350px;
+    width: 350px;
+}
+
+.inner-body .login-page{
     position: absolute;
-    /* background-color: white; */
-    top: 28.57%;
-    height: 14.285%;
-    width: 100%;
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    left: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.e-mail-address{
+.inner-body .login-page .login-page-container{
     position: absolute;
-    /* background-color: rgb(50, 214, 50); */
-    top: 42.855%;
-    height: 14.285%;
+    background-color: white;
+    height: 95%;
+    width: 95%;
+}
+
+.inner-body .login-page .login-page-container .heading{
+    position: absolute;
+    background-color: white;
+    height: 10%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 250%;
+}
+
+.inner-body .login-page .login-page-container .details{
+    position: absolute;
+    /* background-color: red; */
+    height: 65%;
+    width: 100%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-body .login-page .login-page-container .details .input{
+    position: relative;
+    background-color: white;
+    height: 25%;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
     align-items: center;
 }
 
-.password{
+.inner-body .login-page .login-page-container .details .input span{
     position: absolute;
-    /* background-color: white; */
-    top: 57.14%;
-    height: 14.285%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.institution{
-    position: absolute;
-    /* background-color: rgb(50, 214, 50); */
-    top: 71.425%;
-    height: 14.285%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.buttons{
-    position: absolute;
-    /* background-color: white; */
-    top: 85.71%;
-    height: 14.285%;
-    width: 100%;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.text{
-    color: black;
-    position: absolute;
-    left: 5%;
+    left: 2%;
     font-size: 130%;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'ABeeZee', sans-serif;
 }
 
-.box{
+.inner-body .login-page .login-page-container .details .input input{
+    position: absolute;
+    background-color: rgb(250, 250, 250);
+    height: 50%;
+    width: 60%;
+    left: 30%;
+    font-size: 130%;
+    padding: 1%;
+    border-top: 1px solid white;
+    border-bottom: 2px solid black;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.inner-body .login-page .login-page-container .log-in-btn{
+    position: absolute;
+    background-color: white;
+    height: 15%;
+    width: 100%;
+    top: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.inner-body .login-page .login-page-container .log-in-btn button{
     padding: 2%;
     position: absolute;
-    background-color: white;
-    height: 30%;
-    width: 50%;
-    left: 35%;
-    border: 2px solid rgb(231, 230, 230);
-    border-radius: 10px;
+    background-color: rgb(3, 105, 194);
+    color: white;
+    height: 60%;
+    width: 25%;
     font-size: 110%;
-    font-family: 'Inconsolata', monospace;
+    border: none;
+    border-radius: 5px;
 }
 
-.login-btn{
+.inner-body .login-page .login-page-container .login-other-methods{
     position: absolute;
-    background-color: white;
-    color: black;
-    height: 40%;
-    width: 50%;
-    border: 1px solid rgb(230, 230, 230);
-    border-radius: 10px;
-    cursor: pointer;
+    background-color: rgb(11, 135, 11);
+    height: 10%;
+    width: 100%;
+    top: 90%;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .inner-body{
+        height: 100%;
+        width: 100%;
+    }
+
+    .inner-body .image-page{
+        width: 100%;
+    }
+    
+    .inner-body .image-page .image{
+        background-color: white;
+        height: 50%;
+    }
+
+    .inner-body .image-page .image img{
+        height: 250px;
+        width: 250px;
+    }
+
+    .inner-body .login-page{
+        width: 100%;
+        top: 60%;
+        left: 0%;
+    }
 }

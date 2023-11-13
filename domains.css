@@ -5,7 +5,7 @@
 
 nav .navbar{
     position: absolute;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(250, 250, 250);
     height: 10%;
     width: 100%;
     display: flex;
@@ -13,6 +13,7 @@ nav .navbar{
 }
 
 nav .navbar pre{
+    color: green;
     font-size: 150%;
     margin-left: 3%;
 }
@@ -43,7 +44,7 @@ nav .navbar pre{
 
 .main-body .domains .heading{
     position: absolute;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(245, 245, 245);
     top: 0%;
     height: 30%;
     width: 100%;
