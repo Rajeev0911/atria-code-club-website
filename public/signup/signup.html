@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+    <title>signup</title>
+    <link rel="stylesheet" href="signup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,21 +20,26 @@
                 <div class="aec-name">ATRIA CODE CLUB</div>
                 <div class="image"><img src="ACC_IMG.jpeg" alt="img"></div>
             </div>
-            <div class="login-page">
-                <div class="login-page-container">
+            <div class="signup-page">
+                <div class="signup-page-container">
+                    <form action="/user_details.html" method="post" autocomplete="off">
                     <div class="heading"><span>Sign up</span></div>
                     <div class="details">
-                        <div class="input name"><span>Name:</span> <input type="text"></div>
-                        <div class="input e-mail"><span>E-mail:</span> <input type="text"></div>
-                        <div class="input password"><span>Password:</span> <input type="text"></div>
-                        <div class="input institution"><span>Institution:</span><input type="text"></div>
+                        <div class="input-div"><span>Name:</span> <input class="input" id="name" type="text" name="username"></div>
+                        <div class="input-div"><span>E-mail:</span> <input class="input" id="email" type="text" name="email"></div>
+                        <div class="input-div"><span>Password:</span> <input class="input" id="password" type="text" name="password"></div>
+                        <div class="input-div"><span>Institution:</span><input class="input" id="institution" type="text" name="institution"></div>
                     </div>
-                    <div class="log-in-btn"><button>Log in</button></div>
+                    <div class="sign-up-btn"><button type="submit" id="submitbtn">Sign up</button></div>
+                </form>
                     <div class="login-other-methods"></div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="signup.js"></script>
+
 </body>
 
 </html>
