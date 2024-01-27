@@ -1,0 +1,12 @@
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-body .content{
+    padding: 3%;
+    text-align: center;
+    font-size: 120%;
+    font-family: 'Work Sans', sans-serif;
+}

@@ -1,0 +1,98 @@
+nav .navbar{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+
+nav .navbar .logo{
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+nav .navbar .logo .logo-image{
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .navbar .logo .logo-image img{
+    height: 90%;
+    width: 85%;
+    border-radius: 50%;
+}
+
+nav .navbar .logo .logo-name{
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 65%;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .navbar .logo .logo-name span{
+    color: green;
+    font-size: 140%;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+nav .navbar .nav-options{
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    height: 100%;
+    width: 40%;
+    left: 15%;
+}
+
+nav .navbar .nav-options .link{
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+    font-family: 'Barlow', sans-serif;
+}
+
+nav .navbar .search{
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    height: 100%;
+    width: 30%;
+    left: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .navbar .profile{
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    height: 100%;
+    width: 15%;
+    left: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav .navbar .profile .btn{
+    position: relative;
+    background-color: rgb(20, 129, 231);
+    color: white;
+    height: 50%;
+    width: 100%;
+}

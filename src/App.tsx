@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import { Route , Routes } from 'react-router-dom'
+import Layout from './components/Layout'
+import Indexpage from './components/Indexpage'
+import Contest from './pages/Contest'
+import Domains from './pages/Domains'
+import Explore from './pages/Explore'
+import Support from './pages/Support'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Routes>
+      <Route path='/' element={<Layout/>}>
+        <Route index element={<Indexpage/>}/>
+        <Route path='/contest' element={<Contest/>}/>
+        <Route path='/domains' element={<Domains/>}/>
+        <Route path='/explore' element={<Explore/>}/>
+        <Route path='/support' element={<Support/>}/>
+      </Route>
+    </Routes>
+  )
 }
 
-export default App;
+export default App

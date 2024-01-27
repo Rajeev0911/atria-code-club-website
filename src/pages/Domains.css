@@ -1,0 +1,73 @@
+.main-body{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-body .domains{
+    padding: 1%;
+    margin: 2%;
+    background-color: white;
+    height: 40%;
+    width: 30%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 5px rgb(231, 231, 231);
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-radius: 15px;
+}
+
+.main-body .domains:hover{
+    border: 1px solid black;
+}
+
+.main-body .domains .heading{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 125%;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.main-body .domains .content{
+    background-color: rgb(252, 252, 252);
+    height: 50%;
+    width: 100%;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.main-body .domains .button{
+    background-color: rgb(252, 252, 252);
+    top: 80%;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.main-body .domains .button button{
+    padding: 1%;
+    background-color: rgb(30, 116, 216);
+    color: white;
+    height: 70%;
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 80%;
+}
