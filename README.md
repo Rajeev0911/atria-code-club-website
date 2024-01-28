@@ -11,6 +11,11 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Snapshot:
+## Snapshots:
 
 ![Alt text describing the image](/atriacodeclubpics/Home-pg.png)
+![Alt text describing the image](/atriacodeclubpics/Domains-pg.png)
+![Alt text describing the image](/atriacodeclubpics/signup-pg.png)
+
+
+
