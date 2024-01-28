@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main-body{
+    padding-top: 5%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.inner-body{
+    height: 80%;
+    width: 80%;
+}
+
+.inner-body .image-page{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+}
+
+.inner-body .image-page .aec-name{
+    background-color: white;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 140%;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.inner-body .image-page .image{
+    background-color: white;
+    height: 90%;
+    width: 100%;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-body .image-page .image img{
+    height: 350px;
+    width: 350px;
+}
+
+.inner-body .signup-page{
+    position: absolute;
+    background-color: white;
+    top: 5%;
+    height: 100%;
+    width: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-body .signup-page .signup-page-container{
+    position: absolute;
+    background-color: white;
+    height: 95%;
+    width: 95%;
+}
+
+.inner-body .signup-page .signup-page-container .heading{
+    position: absolute;
+    background-color: white;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 250%;
+}
+
+.inner-body .signup-page .signup-page-container .details{
+    position: absolute;
+    /* background-color: red; */
+    height: 65%;
+    width: 100%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-body .signup-page .signup-page-container .details .input-div{
+    position: relative;
+    background-color: white;
+    height: 25%;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.inner-body .signup-page .signup-page-container .details .input-div span{
+    position: absolute;
+    left: 2%;
+    font-size: 130%;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.inner-body .signup-page .signup-page-container .details .input-div input{
+    position: absolute;
+    background-color: rgb(250, 250, 250);
+    height: 50%;
+    width: 60%;
+    left: 30%;
+    font-size: 130%;
+    padding: 1%;
+    border-top: 1px solid white;
+    border-bottom: 2px solid black;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.inner-body .signup-page .signup-page-container .sign-up-btn{
+    position: absolute;
+    background-color: white;
+    height: 15%;
+    width: 100%;
+    top: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.inner-body .signup-page .signup-page-container .sign-up-btn button{
+    padding: 2%;
+    position: absolute;
+    background-color: rgb(3, 105, 194);
+    color: white;
+    height: 60%;
+    width: 25%;
+    font-size: 110%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inner-body .signup-page .signup-page-container .login-other-methods{
+    position: absolute;
+    background-color: rgb(11, 135, 11);
+    height: 10%;
+    width: 100%;
+    top: 90%;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .inner-body{
+        height: 100%;
+        width: 100%;
+    }
+
+    .inner-body .image-page{
+        width: 100%;
+    }
+    
+    .inner-body .image-page .image{
+        background-color: white;
+        height: 50%;
+    }
+
+    .inner-body .image-page .image img{
+        height: 250px;
+        width: 250px;
+    }
+
+    .inner-body .signup-page{
+        width: 100%;
+        top: 60%;
+        left: 0%;
+    }
+}

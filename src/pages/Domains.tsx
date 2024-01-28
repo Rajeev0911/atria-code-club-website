@@ -1,70 +1,39 @@
 import React from 'react'
-import './Global.css'
 import './Domains.css'
 
 const Domains = () => {
-  return (
-    <div className="main-body">
-      <div className="content">
-      <div className="body-div">
-        <div className="main-body" id="bodyId">
-            <div className="domains domain1">
-                <div className="heading">
-                    <span>Artificial Intelligence and Machine Learning</span>
-                </div>
-                <div className="content">
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsam totam quidem nam
-                        culpa
-                        alias harum pariatur velit quibusdam! Vitae!</span>
-                </div>
-                <div className="button">
-                    <button>Select</button>
+    return (
+        <div className='card-collection'>
+            <div className="card" style={{width:'50%'}}>
+                <div className="card-body">
+                    <h5 className="card-title">AI and ML</h5>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eius obcaecati praesentium sit reiciendis ducimus excepturi cum saepe. Enim, accusamus?</p>
+                    <button className='domains-btn'>Select</button>
                 </div>
             </div>
-            <div className="domains domain2">
-                <div className="heading">
-                    <span>Data Structure and Algorithm</span>
-                </div>
-                <div className="content">
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsam totam quidem nam
-                        culpa
-                        alias harum pariatur velit quibusdam! Vitae!</span>
-                </div>
-                <div className="button">
-                    <button>Select</button>
+            <div className="card" style={{width:'50%'}}>
+                <div className="card-body">
+                    <h5 className="card-title">Website Development</h5>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nihil! Voluptas voluptatibus excepturi, minus reiciendis repudiandae impedit quisquam. Earum, doloremque!</p>
+                    <button className='domains-btn'>Select</button>
                 </div>
             </div>
-            <div className="domains domain3">
-                <div className="heading">
-                    <span>Cyber Security</span>
-                </div>
-                <div className="content">
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsam totam quidem nam
-                        culpa
-                        alias harum pariatur velit quibusdam! Vitae!</span>
-                </div>
-                <div className="button">
-                    <button>Select</button>
+            <div className="card" style={{width:'50%'}}>
+                <div className="card-body">
+                    <h5 className="card-title">DSA</h5>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A minima repellendus aspernatur reprehenderit dolor, fugiat beatae rerum animi ad iste.</p>
+                    <button className='domains-btn'>Select</button>
                 </div>
             </div>
-            <div className="domains domain4">
-                <div className="heading">
-                    <span>Web Development</span>
-                </div>
-                <div className="content">
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsam totam quidem nam
-                        culpa
-                        alias harum pariatur velit quibusdam! Vitae!</span>
-                </div>
-                <div className="button">
-                    <button>Select</button>
+            <div className="card" style={{width:'50%'}}>
+                <div className="card-body">
+                    <h5 className="card-title">Android develpoment</h5>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A blanditiis neque amet pariatur placeat cum saepe assumenda natus ipsum. At.</p>
+                    <button className='domains-btn'>Select</button>
                 </div>
             </div>
-        </div>
-    </div>
-      </div>
-    </div>
-  )
+            </div>
+    )
 }
 
 export default Domains

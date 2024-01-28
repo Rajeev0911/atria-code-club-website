@@ -26,15 +26,15 @@ const Header = () => {
             </div>
             <div className="profile">
                 <form action="http://localhost:3000/signup" method="get">
-                    <div className="signup"><button className="btn" type="submit">Signup</button></div>
+                    <div className="signup"><Link className='link' to={'/signup'}><button className="btn" type="submit"><b>Signup</b></button></Link></div>
                 </form>
                 <form action="http://localhost:3000/login" method="get">
-                    <div className="login"><button className="btn" type="submit">Login</button></div>
+                    <div className="login"><Link className='link' to={'/login'}><button className="btn" type="submit"><b>Login</b></button></Link></div>
                 </form>
             </div>
         </div>
     </nav>
-    )
+    )    
 }
 
 export default Header

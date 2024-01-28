@@ -1,4 +1,6 @@
 import React from 'react'
+import './Signup.css'
+import ACC_IMG from './ACC_IMG.jpeg'
 
 const Signup = () => {
     return (
@@ -6,11 +8,11 @@ const Signup = () => {
             <div className="inner-body">
                 <div className="image-page">
                     <div className="aec-name">ATRIA CODE CLUB</div>
-                    <div className="image"><img src="ACC_IMG.jpeg" alt="img" /></div>
+                    <div className="image"><img src={ACC_IMG} alt="img" /></div>
                 </div>
                 <div className="signup-page">
                     <div className="signup-page-container">
-                        <form action="/user_details.html" method="post">
+                        <form action="/userdetails" method="post">
                             <div className="heading"><span>Sign up</span></div>
                             <div className="details">
                                 <div className="input-div"><span>Name:</span> <input className="input" id="name" type="text" name="username" /></div>
